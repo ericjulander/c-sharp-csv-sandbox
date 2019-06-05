@@ -1,0 +1,11 @@
+C:\Users\eljulander\Documents\charp\bin\Debug\netcoreapp2.2\charp.deps.json
+C:\Users\eljulander\Documents\charp\bin\Debug\netcoreapp2.2\charp.runtimeconfig.json
+C:\Users\eljulander\Documents\charp\bin\Debug\netcoreapp2.2\charp.runtimeconfig.dev.json
+C:\Users\eljulander\Documents\charp\bin\Debug\netcoreapp2.2\charp.dll
+C:\Users\eljulander\Documents\charp\bin\Debug\netcoreapp2.2\charp.pdb
+C:\Users\eljulander\Documents\charp\obj\Debug\netcoreapp2.2\charp.csprojAssemblyReference.cache
+C:\Users\eljulander\Documents\charp\obj\Debug\netcoreapp2.2\charp.csproj.CoreCompileInputs.cache
+C:\Users\eljulander\Documents\charp\obj\Debug\netcoreapp2.2\charp.AssemblyInfoInputs.cache
+C:\Users\eljulander\Documents\charp\obj\Debug\netcoreapp2.2\charp.AssemblyInfo.cs
+C:\Users\eljulander\Documents\charp\obj\Debug\netcoreapp2.2\charp.dll
+C:\Users\eljulander\Documents\charp\obj\Debug\netcoreapp2.2\charp.pdb
