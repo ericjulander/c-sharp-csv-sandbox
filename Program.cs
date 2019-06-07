@@ -2,7 +2,8 @@
 using System.IO;
 using CsvHelper;
 using System.Collections.Generic;
-
+using CityData;
+using System.Linq;
 namespace charp
 {
     class Program
@@ -12,21 +13,33 @@ namespace charp
             // Person guy = new Person("Eric", 10, 20);
             // guy.introduceYourself();
 
-            var rdmTestStringz = readCsvFromPath("./test.csv");
-            foreach (var nameList in rdmTestStringz)
-            {
-                var message = "";
-                foreach (var name in nameList)
-                {
-                    message += ($"{name} | ");
-                }
-                Console.WriteLine(message);
-            }
+            var cityData = extractCityData(readCsvFromPath("./test.csv"));
+            sortCityByRegion(cityData);
+            // foreach (var city in cityData)
+            //     city.printCityData();
 
         }
 
-        public static void sortByItem() { }
+        public static void sortCityByRegion(List<City> cityData)
+        {
+            var regionQuery = from city in cityData
+                              group city by city.Region into regions
+                              select regions;
+            foreach (var region in regionQuery)
+            {
+                Console.WriteLine(region.Key);
+                foreach (var city in region)
+                    city.printCityData();
+            }
+        }
 
+        public static List<City> extractCityData(List<string[]> cityData)
+        {
+            var cities = new List<City>();
+            foreach (var city in cityData)
+                cities.Add(new City() { Region = city[0], State = city[1], Name = city[2], Population = city[3] });
+            return cities;
+        }
 
         /* 
          * This returns a list of String arrays from the given csv file

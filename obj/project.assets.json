@@ -909,11 +909,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eljulander\\Documents\\charp\\charp.csproj",
+      "projectUniqueName": "C:\\Users\\eljulander\\Documents\\c-sharp-csv-sandbox\\charp.csproj",
       "projectName": "charp",
-      "projectPath": "C:\\Users\\eljulander\\Documents\\charp\\charp.csproj",
+      "projectPath": "C:\\Users\\eljulander\\Documents\\c-sharp-csv-sandbox\\charp.csproj",
       "packagesPath": "C:\\Users\\eljulander\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eljulander\\Documents\\charp\\obj\\",
+      "outputPath": "C:\\Users\\eljulander\\Documents\\c-sharp-csv-sandbox\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
